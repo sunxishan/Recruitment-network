@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/commonstyle.css" type="text/css">
+<link rel="stylesheet" href="css/one.css" type="text/css">
+<link rel="stylesheet" href="css/pageSwitch.min.css">
+<title>登录</title>
+</head>
+<body>
+<!--顶部导航-->
+<div class="topnav">
+  <div class="publicwidth"> <img src="images/logo.png" alt="" title="logo">
+    <ul class="nav">
+      <li><a href="index.html">首页</a></li>
+      <li><a href="job.html">找工作</a></li>
+      <li><a href="zrc.html">找人才</a></li>
+      <li><a href="Campus information.html">校园资讯</a></li>
+      <li><a href="Workplace situation.html">职场风云</a></li>
+    </ul>
+    <ul class="login">
+      <li><a href="login.html">登录</a></li>
+      <li><a href="reg.html">注册</a></li>
+    </ul>
+    <ol>
+      <li><a href="enterprise.html">我是企业</a></li>
+      <li><a href="personal.html">我是个人</a></li>
+    </ol>
+  </div>
+</div>
+<!--轮播图和登录框-->
+<div id="container">
+  <div class="sections">
+    <div class="section" id="section0"> </div>
+    <div class="section" id="section1"> </div>
+    <div class="section" id="section2"> </div>
+    <div class="section" id="section3"> </div>
+  </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/pageSwitch.min.js"></script>
+<script>
+	$("#container").PageSwitch({
+		direction:'horizontal',
+		easing:'ease-in',
+		duration:1000,
+		autoPlay:true,
+		loop:'false'
+	});
+</script>
+<div class="chuangjian">
+  <div class="mingpian publicwidth">
+    <h3>创建名片</h3>
+    <form class="formyi">
+      <input type="text" name="" value="真实姓名" style=" width:160px; height:35px; background-color:#EEEEEE; border:none; font-size:16px; color:#989395; text-align:center;">
+      <select style="width:160px; height:35px; background-color:#EEEEEE; border:none; font-size:16px; color:#989395; ">
+        <option value="出生年月">出生年月</option>
+        <option value="1995">1995</option>
+        <option value="1996">1996</option>
+        <option value="1997">1997</option>
+      </select>
+      <label for="male" style="padding-left:10px;">男</label>
+      <input type="radio" name="gender" id="male"/>
+      <label for="female" style="padding-left:10px;">女</label>
+      <input type="radio" name="gender" id="female" />
+      <br>
+      <select style="width:160px; height:35px; background-color:#EEEEEE; border:none; font-size:16px; color:#989395; margin-top:10px; ">
+        <option value="居住地">居住地</option>
+        <option value="北京">北京</option>
+        <option value="石家庄">石家庄</option>
+        <option value="保定">保定</option>
+      </select>
+      <select style="width:160px; height:35px; background-color:#EEEEEE; border:none; font-size:16px; color:#989395; margin-top:10px; ">
+        <option value="开始工作年份">开始工作年份</option>
+        <option value="1995">1995</option>
+        <option value="1996">1996</option>
+        <option value="1997">1997</option>
+      </select>
+      <br>
+      <input type="text" name="" value="请输入常用邮箱" style=" width:240px; height:35px; background-color:#EEEEEE; border:none; font-size:16px; color:#989395; text-align:center; margin-top:10px;">
+      <span>用于接收投递反馈<br>
+      以及企业的HR应聘邀请</span>
+    </form>
+    <h4><img src="images/14.gif" alt="" title=""><span class="h4spyi">工作经历</span><span class="h4sper">体现您的业务水平</span></h4>
+    <form class="former">
+      <input type="text" name="" value="最近一家就职公司名称" style=" width:215px; height:35px; background-color:#EEEEEE; border:none; font-size:16px; color:#989395; text-align:center; margin-top:10px;">
+      <input   type="radio"   value="不让该企业看见我的信息"    name="" style="width:16px; height:15px;" >
+      <span class="formspyi">不让该企业看见我的信息</span> <br>
+      <input type="text" name="" value="职位名称" style=" width:215px; height:35px; background-color:#EEEEEE; border:none; font-size:16px; color:#989395; text-align:center; margin-top:10px;">
+      <input type="text" name="" value="所在行业与职能" style=" width:215px; height:35px; background-color:#EEEEEE; border:none; font-size:16px; color:#989395; text-align:center; margin-top:10px;">
+      <br>
+      <input type="text" name="" value="开始工作时间" style=" width:120px; height:35px; background-color:#EEEEEE; border:none; font-size:16px; color:#989395; text-align:center; margin-top:10px;">
+      <input type="text" name="" value="结束时间" style=" width:120px; height:35px; background-color:#EEEEEE; border:none; font-size:16px; color:#989395; text-align:center; margin-top:10px;">
+      <input type="text" name="" value="每月薪水" style=" width:120px; height:35px; background-color:#EEEEEE; border:none; font-size:16px; color:#989395; text-align:center; margin-top:10px;">
+      <span class="formsper">元/月</span> <br>
+      <input type="text" name="" value=" 请详述您的工作职责范围及工作业绩。" style=" width:450px; height:35px; background-color:#EEEEEE; border:none; font-size:16px; color:#989395; text-align:center; margin-top:10px;">
+    </form>
+    <h5><img src="images/15.gif" alt="" title=""><span class="h5spyi">教育经历</span><span class="h5sper">体现您的学习和专业能力</span></h5>
+    <form class="formsan">
+      <input type="text" name="" value="学校名称" style=" width:240px; height:35px; background-color:#EEEEEE; border:none; font-size:16px; color:#989395; margin-top:10px; padding-left:15px;">
+      <input type="text" name="" value="最高学历" style=" width:240px; height:35px; background-color:#EEEEEE; border:none; font-size:16px; color:#989395; margin-top:10px; padding-left:15px;">
+      <input   type="radio"   value=""    name="" style="width:16px; height:15px;" >
+      <span class="formspsan">统招</span> <br>
+      <input type="text" name="" value="入学时间" style=" width:105px; height:35px; background-color:#EEEEEE; border:none; font-size:16px; color:#989395; margin-top:10px; padding-left:15px;">
+      <input type="text" name="" value="毕业时间" style=" width:105px; height:35px; background-color:#EEEEEE; border:none; font-size:16px; color:#989395; margin-top:10px; padding-left:15px;">
+      <br>
+      <input   type="submit"   value="完成" style=" width:90px; height:30px; background-color:#00B7EE; font-size:14px; color:#FFF; border:none; margin-top:10px;">
+    </form>
+  </div>
+</div>
+<!--底栏-->
+<div class="bottomnav">
+  <div class="publicwidth">
+    <ul>
+      <li><a href="javascript:;">常用链接：</a></li>
+      <li><a href="javascript:;">公司招聘</a></li>
+      <li><a href="javascript:;">找工作</a></li>
+      <li><a href="javascript:;">岗位职责</a></li>
+      <li><a href="javascript:;">求职网</a></li>
+      <li><a href="javascript:;">高薪职位</a></li>
+      <li><a href="javascript:;">手机猎聘</a></li>
+    </ul>
+    <hr>
+    <ul>
+      <li><a href="javascript:;">友情链接：</a></li>
+      <li><a href="javascript:;">驾校</a></li>
+      <li><a href="javascript:;">企业招聘</a></li>
+      <li><a href="javascript:;">中国品牌网</a></li>
+      <li><a href="javascript:;">招聘网站</a></li>
+      <li><a href="javascript:;">时尚品牌网</a></li>
+      <li><a href="javascript:;">云南招聘网</a></li>
+      <li><a href="javascript:;">培训网</a></li>
+      <li><a href="javascript:;">热门招聘信息</a></li>
+      <li><a href="javascript:;">更多</a></li>
+    </ul>
+  </div>
+</div>
+<!--底部导航-->
+<div class="bottom">
+  <hr>
+  <div class="publicwidth">
+    <div class="boxone"> <img src="images/kefu.png" alt="" title="">
+      <ul>
+        <li>服务热线（免长话费）</li>
+        <li>电话：0312-6699</li>
+        <li>工作日：9：00-19:00</li>
+      </ul>
+    </div>
+    <div class="boxtwo">
+      <ul>
+        <li>简介</li>
+        <li>招聘网简介</li>
+        <li>产品服务</li>
+        <li>创新优势</li>
+        <li>友情链接</li>
+        <li>联系我们</li>
+      </ul>
+    </div>
+    <div class="boxthree">
+      <ul>
+        <li>简介</li>
+        <li>招聘网简介</li>
+        <li>产品服务</li>
+        <li>创新优势</li>
+        <li>友情链接</li>
+        <li>联系我们</li>
+      </ul>
+    </div>
+    <div class="boxfour">
+      <ul>
+        <li>简介</li>
+        <li>招聘网简介</li>
+        <li>产品服务</li>
+        <li>创新优势</li>
+        <li>友情链接</li>
+        <li>联系我们</li>
+      </ul>
+    </div>
+    <div class="boxfive">
+      <ul>
+        <li>简介</li>
+        <li>招聘网简介</li>
+        <li>产品服务</li>
+        <li>创新优势</li>
+        <li>友情链接</li>
+        <li>联系我们</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--备案信息-->
+<div class="bottominfor">
+  <div class="publicwidth">
+    <p>京公网安备 11000002000088号|京ICP证070359号|互联网药品信息服务资格证编号(京)-经营性-2014-0008|新出发京零 字第大120007号</p>
+    <p>互联网出版许可证编号新出网证(京)字150号|出版物经营许可证|网络文化经营许可证京网文[2014]2148-348号|违法和不良信息举报电话：4006561155</p>
+    <p>Copyright © 2004 - 2017  京东JD.com 版权所有|消费者维权热线：4006067733经营证照</p>
+  </div>
+</div>
+</body>
+</html>

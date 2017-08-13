@@ -1,0 +1,209 @@
+body, ul, ol, h1, h2, h3, h4, h5, h6, p, input, select, textarea, dl, dd {
+	margin: 0;
+	padding: 0;
+}
+ul, ol {
+	list-style: none;
+}
+input, select, textarea {
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+/*右下角的小尾巴*/
+textarea {
+	resize: none;
+}
+img {
+	border: none;
+	vertical-align: top;
+}
+a {
+	text-decoration: none;
+}
+/*清浮动*/
+.clearfix:after, .clearfix:before {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+*zoom:1;
+}
+/*公用样式*/
+.publicwidth {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*导航栏*/
+.topnav {
+	height: 50px;
+	background-color: #303040
+}
+.topnav img {
+	float: left;
+	margin-top: 7px;
+}
+.topnav .nav {
+	float: left;
+	margin-left: 62px;
+}
+.topnav .nav li {
+	float: left;
+	margin: 0 40px;
+	line-height: 50px;
+}
+.topnav .nav li a {
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #556D79;
+	transition: 0.2s;
+}
+.topnav .nav li a:hover {
+	color: #FEFEFE;
+}
+.topnav ol {
+	float: right;
+}
+.topnav ol li {
+	float: left;
+	margin: 0 20px;
+	line-height: 50px;
+}
+.topnav ol li a {
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #556D79;
+	transition: 0.2s;
+}
+.topnav ol li a:hover {
+	color: #FEFEFE;
+}
+.topnav .login {
+	float: right;
+	width: 100px;
+	height: 30px;
+	background-color: deeppink;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.topnav .login li {
+	float: left;
+	padding: 0 13px;
+	line-height: 25px;
+}
+.topnav .login li a {
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: white;
+}
+/*轮播图*/
+#container {
+	width: 100%;
+	height: 450px;
+	overflow: hidden;
+}
+.sections, .section {
+	height: 100%;
+}
+#container, .sections {
+	position: relative;
+}
+.section {
+	background-color: #000;
+	background-size: cover;
+	background-position: 50% 50%;
+	text-align: center;
+	color: white;
+}
+#section0 {
+	background-image: url("../images/1.jpg");
+}
+#section1 {
+	background-image: url("../images/2.jpg");
+}
+#section2 {
+	background-image: url("../images/3.jpg");
+}
+#section3 {
+	background-image: url("../images/4.jpg");
+}
+/*底栏*/
+.bottomnav ul {
+	display: inline-block;
+	margin-left: 30px;
+}
+.bottomnav ul li {
+	float: left;
+	margin-right: 20px;
+}
+.bottomnav ul li a {
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #999999;
+}
+/*底部导航*/
+.bottom .boxone {
+	width: 239px;
+	height: 160px;
+	border-right: 1px solid #999999;
+	float: left;
+}
+.bottom .boxone img{
+	margin-top: 20px;
+	margin-left: 90px;
+}
+.bottom .boxone ul{
+	text-align: center;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #999999;
+}
+.bottom .boxtwo {
+	width: 239px;
+	height: 160px;
+	border-right: 1px solid #999999;
+	float: left;
+}
+.bottom .boxthree {
+	width: 239px;
+	height: 160px;
+	border-right: 1px solid #999999;
+	float: left;
+}
+.bottom .boxfour {
+	width: 239px;
+	height: 160px;
+	border-right: 1px solid #999999;
+	float: left;
+}
+.bottom .boxfive {
+	width: 239px;
+	height: 160px;
+	float: left;
+}
+.bottom .boxtwo,.boxthree,.boxfour,.boxfive ul{
+	text-align: center;
+	left: 70px;
+	margin-top: 10px;
+	line-height: 24px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #999999;
+}
+/*备案信息*/
+.bottominfor{
+	height: 100px;
+	margin-top: 200px;
+	padding-top: 20px;
+}
+.bottominfor p{
+	line-height: 25px;
+	text-align: center;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #999999;
+}

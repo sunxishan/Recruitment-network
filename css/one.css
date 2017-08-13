@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+/*个人表单*/
+.chuangjian {
+	height: 578px;
+	background-color: #F0F0F0;
+	margin-top: 50px;
+}
+.mingpian {
+	width: 1200px;
+	height: 578px;
+	background-color: #FFF;
+	position: relative;
+}
+.mingpian h3 {
+	font-size: 25px;
+	padding-left: 75px;
+}
+.mingpian .formyi {
+	padding-left: 110px;
+	padding-top: 10px;
+}
+.mingpian .formyi span {
+	font-size: 14px;
+	color: #8C8D8D;
+	position: absolute;
+	top: 145px;
+	left: 374px;
+}
+.mingpian h4 {
+	font-size: 20px;
+	padding-left: 75px;
+	margin-top: 10px;
+	position: relative;
+}
+.mingpian h4 img {
+	padding-right: 5px;
+	position: absolute;
+	top: 2px;
+}
+.mingpian h4 .h4spyi {
+	padding-left: 35px;
+}
+.mingpian h4 .h4sper {
+	padding-left: 5px;
+	font-size: 14px;
+	color: #B29696;
+}
+.mingpian .former {
+	padding-left: 110px;
+}
+.mingpian .former .formspyi {
+	font-size: 14px;
+	color: #A4A0A0;
+	padding-top: 125px;
+}
+.mingpian .former .formsper {
+	font-size: 14px;
+	color: #A4A0A0;
+}
+.mingpian h5 {
+	font-size: 20px;
+	padding-left: 75px;
+	margin-top: 10px;
+	position: relative;
+}
+.mingpian h5 img {
+	padding-right: 5px;
+	position: absolute;
+	top: 2px;
+}
+.mingpian h5 .h5spyi {
+	padding-left: 35px;
+}
+.mingpian h5 .h5sper {
+	padding-left: 5px;
+	font-size: 14px;
+	color: #B29696;
+}
+.mingpian .formsan {
+	padding-left: 110px;
+}
+.mingpian .formsan .formspsan3 {
+	font-size: 14px;
+	color: #A4A0A0;
+}

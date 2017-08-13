@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+/*滚动栏*/
+.tips {
+	height: 125px;
+}
+.tips ul {
+	height: 50px;
+}
+.tips ul li {
+	float: left;
+	line-height: 50px;
+	margin: 0 10px;
+}
+.tips ul li a {
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #556D79;
+}
+.tips ul .two a {
+	color: #ECC039;
+}
+.tips form {
+	position: relative;
+	margin-top: 10px;
+}
+.tips form input:first-child {
+	width: 678px;
+	height: 48px;
+	border: 1px solid #D4D4D4;
+	margin-left: 10px;
+	padding-left: 10px;
+	font-size: 16px;
+	color: #878787;
+}
+.tips form .sousuo {
+	width: 125px;
+	height: 50px;
+	margin-left: -5px;
+	border: 1px solid #D4D4D4;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	color: white;
+	background-color: #439BC4;
+}
+.tips form img {
+	position: absolute;
+	left: 705px;
+	top: 5px;
+	z-index: 999;
+}
+/*正文*/
+table{
+	border-collapse:collapse;
+}
+table tbody tr {
+	height: 50px;
+}
+table tbody tr:nth-child(2n+1) {
+	background-color: #3D9BCE;
+}
+table tbody tr:nth-child(2n+1) td {
+	color: white;
+}
+table tbody tr th {
+	font-size: 18px;
+	font-family: "微软雅黑";
+	font-weight: normal;
+	color: white;
+}
+table tbody tr td {
+	text-align: center;
+	font-size: 18px;
+	font-family: "微软雅黑";
+}
+table:last-child{
+	margin-top: 30px;
+}
+table:last-child tbody tr:nth-child(2n+1) {
+	background-color: #3D9BCE;
+}
+table:last-child tbody tr:nth-child(2n+1) td {
+	color: white;
+}

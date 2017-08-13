@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+.qyzc {
+	height: 578px;
+	background-color: #E6E6E6;
+	margin-top: 50px;
+}
+.qzbiaodan {
+	width: 1200px;
+	height: 578px;
+	background-color: #F7F7F7;
+	position: relative;
+}
+.qzbiaodan h3 {
+	font-size: 24px;
+	padding-top: 30px;
+	padding-left: 40px;
+}
+.qzbiaodan form span {
+	font-size: 14px;
+}

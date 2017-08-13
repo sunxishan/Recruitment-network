@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+/*正文*/
+.centerone {
+	margin-top: 50px;
+	height: 3680px;
+}
+.centerone .left {
+	width: 845px;
+	float: left;
+}
+.centerone .left h1 {
+	font-size: 40px;
+	font-family: "微软雅黑";
+	font-weight: normal;
+	color: #434343;
+}
+.centerone .left .tips {
+	margin-top: 60px;
+}
+.centerone .left .tips h6 {
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #999999;
+	font-weight: normal;
+}
+.centerone .left .tips h6:first-child {
+	float: left;
+}
+.centerone .left .tips h6:last-child {
+	float: right;
+}
+.centerone .left .blue {
+	margin: 75px;
+	display: inline-block;
+	width: 705px;
+	height: 356px;
+	background-color: #3D9BCE;
+	text-align: center;
+}
+.centerone .left .blue h6 {
+	margin-top: 90px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #434343;
+	font-weight: normal;
+}
+.centerone .left h2 {
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #434343;
+	margin: 10px 0;
+}
+.centerone .left .blue p {
+	text-indent: 0em;
+	margin-top: 40px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #434343;
+	font-weight: bold;
+}
+.centerone .left p {
+	display: inline-block;
+	text-indent: 2em;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #434343;
+	line-height: 40px;
+}
+.centerone .left img {
+	margin: 0 75px;
+}
+.centerone .right{
+	width: 315px;
+	margin-left: 40px;
+	float: left;
+}
+.centerone .right h1{
+	font-size: 30px;
+	font-family: "微软雅黑";
+	color: #434343;
+	font-weight: normal;
+	border-left: 10px solid #3D9BCE;
+	padding-left: 50px;
+}
+.centerone .right .one{
+	height: 200px;
+}
+.centerone .right .one p{
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #434343;
+	padding: 0 10px;
+	line-height: 40px;
+}
+.centerone .right .one .tips{
+	margin-top: 40px;
+}
+.centerone .right .one .tips h6{
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #999999;
+	font-weight: normal;
+}
+.centerone .right .one .tips h6:first-child {
+	float: left;
+}
+.centerone .right .one .tips h6:last-child {
+	float: right;
+}

@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+/*大聘同道*/
+.dapin {
+	height: 305px;
+	background-color: #f9f9f9;
+	margin-top: 35px;
+}
+.dapin ul {
+	padding-left: 175px;
+	padding-top: 65px;
+}
+.dapin ul li {
+	float: left;
+	padding-right: 50px;
+	position: relative;
+}
+.dapin ul li h3 {
+	display: inline-block;
+	position: absolute;
+	top: 15px;
+	padding-left: 15px;
+	font-size: 25px;
+}
+.dapin ul li p {
+	margin-left: 65px;
+}
+.dapin ul li .leitoupyi {
+	font-size: 16px;
+}
+.dapin ul li .leitouper {
+	line-height: 20px;
+	font-size: 12px;
+}
+.dapin ul li .leitoupsan {
+	width: 109px;
+	height: 48px;
+	background-color: #43BDF5;
+	font-size: 18px;
+	text-align: center;
+	line-height: 48px;
+	margin-top: 30px;
+}
+.dapin ul li .leitoupsan a {
+	color: #FFF;
+}
+/*图标*/
+.tubiao {
+	height: 578px;
+	background-color: #4397C3;
+	margin: 10px 0;
+}
+.tubiaolan {
+	margin: 0 auto;
+}
+.tubiaolan ul {
+	margin: 0 auto;
+	width: 850px;
+	padding-top: 60px;
+}
+.tubiaolan ul li {
+	float: left;
+	padding-right: 45px;
+	padding-bottom: 55px;
+}
+.tubiaolan p {
+	width: 160px;
+	height: 80px;
+	background-color: #F62657;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 80px;
+	margin: 400px auto;
+}
+.tubiaolan p a {
+	color: #FFF;
+}

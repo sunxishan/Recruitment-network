@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/commonstyle.css" type="text/css">
+<link rel="stylesheet" href="css/index.css" type="text/css">
+<link rel="stylesheet" href="css/pageSwitch.min.css">
+<title>首页</title>
+</head>
+<body>
+<!--顶部导航-->
+<div class="topnav">
+  <div class="publicwidth"> <img src="images/logo.png" alt="" title="logo">
+    <ul class="nav">
+      <li><a href="index.html">首页</a></li>
+      <li><a href="job.html">找工作</a></li>
+      <li><a href="zrc.html">找人才</a></li>
+      <li><a href="Campus information.html">校园资讯</a></li>
+      <li><a href="Workplace situation.html">职场风云</a></li>
+    </ul>
+    <ul class="login">
+      <li><a href="login.html">登录</a></li>
+      <li><a href="reg.html">注册</a></li>
+    </ul>
+    <ol>
+      <li><a href="enterprise.html">我是企业</a></li>
+      <li><a href="personal.html">我是个人</a></li>
+    </ol>
+  </div>
+</div>
+<!--轮播图和登录框-->
+<div id="container">
+  <div class="sections">
+    <div class="section" id="section0"> </div>
+    <div class="section" id="section1"> </div>
+    <div class="section" id="section2"> </div>
+    <div class="section" id="section3"> </div>
+  </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/pageSwitch.min.js"></script>
+<script>
+	$("#container").PageSwitch({
+		direction:'horizontal',
+		easing:'ease-in',
+		duration:1000,
+		autoPlay:true,
+		loop:'false'
+	});
+</script>
+<!--滚动栏和搜索栏-->
+<div class="tips">
+  <div class="publicwidth">
+    <ul>
+      <li><a href="javascript:;">热门行业：</a></li>
+      <li class="two"><a href="javascript:;">网站维护</a></li>
+      <li><a href="javascript:;">美工</a></li>
+      <li><a href="javascript:;">电商运营专员</a></li>
+      <li><a href="javascript:;">网络优化与推广</a></li>
+      <li><a href="javascript:;">网页设计与制作</a></li>
+      <li><a href="javascript:;">PHP</a></li>
+      <li><a href="javascript:;">WEB前端</a></li>
+      <li><a href="javascript:;">JS</a></li>
+    </ul>
+    <form  method="post" action="save.php">
+      <input type="text" value="输入职位关键词：如销售总监等" name="myName">
+      <input class="sousuo" type="submit" value="搜索" name="submitBtn">
+      <img src="images/sousuo.png" alt="">
+    </form>
+  </div>
+</div>
+<!--正文-->
+<div class="publicwidth">
+  <table width="1200">
+    <tbody>
+      <tr>
+        <th scope="col">找工作</th>
+        <th scope="col">&nbsp;</th>
+        <th scope="col">&nbsp;</th>
+        <th scope="col">&nbsp;</th>
+        <th scope="col">&nbsp;</th>
+        <th scope="col">更多</th>
+      </tr>
+      <tr>
+        <td>公司名称</td>
+        <td>岗位名称</td>
+        <td>招聘人数</td>
+        <td>工作经验</td>
+        <td>工作地点</td>
+        <td>年薪</td>
+      </tr>
+      <tr>
+        <td>网购贸易</td>
+        <td>电商运营专员</td>
+        <td>10人</td>
+        <td>一年以上经验</td>
+        <td>上海浦东新区</td>
+        <td>5-7万</td>
+      </tr>
+      <tr>
+        <td>网购贸易</td>
+        <td>电商运营专员</td>
+        <td>10人</td>
+        <td>一年以上经验</td>
+        <td>上海浦东新区</td>
+        <td>5-7万</td>
+      </tr>
+      <tr>
+        <td>网购贸易</td>
+        <td>电商运营专员</td>
+        <td>10人</td>
+        <td>一年以上经验</td>
+        <td>上海浦东新区</td>
+        <td>5-7万</td>
+      </tr>
+      <tr>
+        <td>网购贸易</td>
+        <td>电商运营专员</td>
+        <td>10人</td>
+        <td>一年以上经验</td>
+        <td>上海浦东新区</td>
+        <td>5-7万</td>
+      </tr>
+      <tr>
+        <td>网购贸易</td>
+        <td>电商运营专员</td>
+        <td>10人</td>
+        <td>一年以上经验</td>
+        <td>上海浦东新区</td>
+        <td>5-7万</td>
+      </tr>
+      <tr>
+        <td>网购贸易</td>
+        <td>电商运营专员</td>
+        <td>10人</td>
+        <td>一年以上经验</td>
+        <td>上海浦东新区</td>
+        <td>5-7万</td>
+      </tr>
+      <tr>
+        <td>网购贸易</td>
+        <td>电商运营专员</td>
+        <td>10人</td>
+        <td>一年以上经验</td>
+        <td>上海浦东新区</td>
+        <td>5-7万</td>
+      </tr>
+      <tr>
+        <td>网购贸易</td>
+        <td>电商运营专员</td>
+        <td>10人</td>
+        <td>一年以上经验</td>
+        <td>上海浦东新区</td>
+        <td>5-7万</td>
+      </tr>
+      <tr>
+        <td>网购贸易</td>
+        <td>电商运营专员</td>
+        <td>10人</td>
+        <td>一年以上经验</td>
+        <td>上海浦东新区</td>
+        <td>5-7万</td>
+      </tr>
+      <tr>
+        <td>网购贸易</td>
+        <td>电商运营专员</td>
+        <td>10人</td>
+        <td>一年以上经验</td>
+        <td>上海浦东新区</td>
+        <td>5-7万</td>
+      </tr>
+    </tbody>
+  </table>
+  <img src="images/banner00.png" alt="" title="">
+  <table width="1200">
+    <tbody>
+      <tr>
+        <th scope="col">找人才</th>
+        <th scope="col">&nbsp;</th>
+        <th scope="col">&nbsp;</th>
+        <th scope="col">&nbsp;</th>
+        <th scope="col">更多</th>
+      </tr>
+      <tr>
+        <td>姓名</td>
+        <td>性别</td>
+        <td>年龄</td>
+        <td>专业</td>
+        <td>目前状态</td>
+      </tr>
+      <tr>
+        <td>张三</td>
+        <td>男</td>
+        <td>21</td>
+        <td>电子商务</td>
+        <td>应届毕业生</td>
+      </tr>
+      <tr>
+        <td>张三</td>
+        <td>男</td>
+        <td>21</td>
+        <td>电子商务</td>
+        <td>应届毕业生</td>
+      </tr>
+      <tr>
+        <td>张三</td>
+        <td>男</td>
+        <td>21</td>
+        <td>电子商务</td>
+        <td>应届毕业生</td>
+      </tr>
+      <tr>
+        <td>张三</td>
+        <td>男</td>
+        <td>21</td>
+        <td>电子商务</td>
+        <td>应届毕业生</td>
+      </tr>
+      <tr>
+        <td>张三</td>
+        <td>男</td>
+        <td>21</td>
+        <td>电子商务</td>
+        <td>应届毕业生</td>
+      </tr>
+      <tr>
+        <td>张三</td>
+        <td>男</td>
+        <td>21</td>
+        <td>电子商务</td>
+        <td>应届毕业生</td>
+      </tr>
+      <tr>
+        <td>张三</td>
+        <td>男</td>
+        <td>21</td>
+        <td>电子商务</td>
+        <td>应届毕业生</td>
+      </tr>
+      <tr>
+        <td>张三</td>
+        <td>男</td>
+        <td>21</td>
+        <td>电子商务</td>
+        <td>应届毕业生</td>
+      </tr>
+      <tr>
+        <td>张三</td>
+        <td>男</td>
+        <td>21</td>
+        <td>电子商务</td>
+        <td>应届毕业生</td>
+      </tr>
+      <tr>
+        <td>张三</td>
+        <td>男</td>
+        <td>21</td>
+        <td>电子商务</td>
+        <td>应届毕业生</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<!--底栏-->
+<div class="bottomnav">
+  <div class="publicwidth">
+    <hr>
+    <ul>
+      <li><a href="javascript:;">常用链接：</a></li>
+      <li><a href="javascript:;">公司招聘</a></li>
+      <li><a href="javascript:;">找工作</a></li>
+      <li><a href="javascript:;">岗位职责</a></li>
+      <li><a href="javascript:;">求职网</a></li>
+      <li><a href="javascript:;">高薪职位</a></li>
+      <li><a href="javascript:;">手机猎聘</a></li>
+    </ul>
+    <hr>
+    <ul>
+      <li><a href="javascript:;">友情链接：</a></li>
+      <li><a href="javascript:;">驾校</a></li>
+      <li><a href="javascript:;">企业招聘</a></li>
+      <li><a href="javascript:;">中国品牌网</a></li>
+      <li><a href="javascript:;">招聘网站</a></li>
+      <li><a href="javascript:;">时尚品牌网</a></li>
+      <li><a href="javascript:;">云南招聘网</a></li>
+      <li><a href="javascript:;">培训网</a></li>
+      <li><a href="javascript:;">热门招聘信息</a></li>
+      <li><a href="javascript:;">更多</a></li>
+    </ul>
+  </div>
+</div>
+<!--底部导航-->
+<div class="bottom">
+  <hr>
+  <div class="publicwidth">
+    <div class="boxone"> <img src="images/kefu.png" alt="" title="">
+      <ul>
+        <li>服务热线（免长话费）</li>
+        <li>电话：0312-6699</li>
+        <li>工作日：9：00-19:00</li>
+      </ul>
+    </div>
+    <div class="boxtwo">
+      <ul>
+        <li>简介</li>
+        <li>招聘网简介</li>
+        <li>产品服务</li>
+        <li>创新优势</li>
+        <li>友情链接</li>
+        <li>联系我们</li>
+      </ul>
+    </div>
+    <div class="boxthree">
+      <ul>
+        <li>简介</li>
+        <li>招聘网简介</li>
+        <li>产品服务</li>
+        <li>创新优势</li>
+        <li>友情链接</li>
+        <li>联系我们</li>
+      </ul>
+    </div>
+    <div class="boxfour">
+      <ul>
+        <li>简介</li>
+        <li>招聘网简介</li>
+        <li>产品服务</li>
+        <li>创新优势</li>
+        <li>友情链接</li>
+        <li>联系我们</li>
+      </ul>
+    </div>
+    <div class="boxfive">
+      <ul>
+        <li>简介</li>
+        <li>招聘网简介</li>
+        <li>产品服务</li>
+        <li>创新优势</li>
+        <li>友情链接</li>
+        <li>联系我们</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--备案信息-->
+<div class="bottominfor">
+  <div class="publicwidth">
+    <p>京公网安备 11000002000088号|京ICP证070359号|互联网药品信息服务资格证编号(京)-经营性-2014-0008|新出发京零 字第大120007号</p>
+    <p>互联网出版许可证编号新出网证(京)字150号|出版物经营许可证|网络文化经营许可证京网文[2014]2148-348号|违法和不良信息举报电话：4006561155</p>
+    <p>Copyright © 2004 - 2017  京东JD.com 版权所有|消费者维权热线：4006067733经营证照</p>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+.city {
+	height: 346px;
+	background-color: #f4f4f5;
+	margin-top: 35px;
+}
+.city ul li {
+	line-height: 46px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+}
+.city ul li a:hover {
+	color: #e44444;
+}
+.city ul li a {
+	padding-left: 19px;
+	color: #444;
+}
+.diyizuo {
+	float: left;
+}
+.diyiyou {
+	float: right;
+}
+.diyi li {
+	height: 125px;
+	background-color: #f4f4f5;
+	margin-top: 28px;
+	position: relative;
+}
+.diyizuo {
+	padding-left: 37px;
+}
+.diyizuo h3 {
+	font-weight: normal;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+.diyizuo p {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	padding-bottom: 13px;
+}
+.diyizuo span {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #999;
+}
+.diyizuo .xinzi {
+	color: #e44444;
+	font-family: "微软雅黑";
+	font-size: 18px;
+}
+.diyiyou h3 {
+	font-weight: normal;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+.diyiyou {
+	padding-right: 38px;
+}
+.diyiyou p {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	padding-bottom: 13px;
+}
+.diyiyou span {
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+.yeshu {
+	margin-top: 20px;
+	margin-left: -300px;
+	display: inline-block;
+}
+.yeshu ul {
+	width: 335px;
+	height: 33px;
+	float: right;
+}
+.yeshu ul li {
+	float: left;
+	width: 33px;
+	height: 33px;
+	margin-left: 1px;
+	text-align: center;
+	line-height: 33px;
+	background-color: #f4f4f5;
+}
+.yeshu ul li:hover {
+	background-color: #3d9bce;
+}
+.yeshu ul li a {
+	color: #000;
+}
+.yeshu ul li:hover a {
+	color: #FFF;
+}
+.diyi h4 {
+	width: 137px;
+	height: 28px;
+	background-color: #419dcf;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	position: absolute;
+	left: 500px;
+	top: 62px;
+	text-align: center;
+	line-height: 28px;
+	opacity: 0;
+}
+.diyi h4 a {
+	color: #FFF;
+}
+.diyi li:hover h4 {
+	opacity: 1;
+}
